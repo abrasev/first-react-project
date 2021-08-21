@@ -2,6 +2,145 @@
   text-align: center;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.96);
+  height: 6vh;
+  font-size: large;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  margin-left: 30px;
+}
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./Images/nice-background.jpg");
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 94vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.home-text {
+  float: right;
+  text-align: right;
+  margin: 2.5% 10% 0% 0;
+  text-decoration-style: none;
+}
+
+.car-text {
+  float: right;
+  text-align: right;
+  margin-bottom: 1%;
+  text-decoration-style: none;
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+}
+
+.text-pos {
+  position: relative;
+}
+span {
+  font-size: 23px;
+}
+
+.no-deco {
+  text-decoration: none;
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+}
+.no-deco:hover {
+  color: rgba(248, 36, 82, 0.781);
+}
+
+.nav span {
+  margin-top: 15px;
+  font-size: large;
+}
+
+.cardGrid {
+  padding: 15px 0;
+  height: 88vh;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardMedia {
+  padding-top: 56.25%;
+}
+
+.cardContent {
+  flex-grow: 1;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.96);
+  color: white;
+  text-align: center;
+}
+
+.point-hand {
+  font-size: 30px;
+}
+
+/* Contact  */
+
+.root {
+  min-width: 275;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.5)),
+    url("https://image.shutterstock.com/image-photo/auto-dealer-business-card-over-260nw-342255809.jpg");
+}
+.root-sec {
+  min-width: 275;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.5)),
+    url("https://www.autoservices.nsofttek.com/uploads/users/15984440241.jpg");
+  background-position: center;
+}
+.bullet {
+  display: "inline-block";
+  margin: 0 2px;
+  transform: "scale(0.8)";
+}
+.title {
+  font-size: 14;
+}
+.pos {
+  margin-bottom: 12;
+}
+.float-right {
+  float: right;
+  width: 40%;
+}
+.float-left {
+  float: left;
+  width: 40%;
+}
+.fkloatHeith {
+  height: 50vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
