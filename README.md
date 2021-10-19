@@ -1,3 +1,7 @@
+!!!NOTE!!!
+This project gets it's json file from the project RentIt. 
+This is one of the two projects needed to finish the academy I was attending.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
